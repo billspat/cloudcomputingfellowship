@@ -7,7 +7,7 @@ The [NIST definition of cloud computing](https://nvlpubs.nist.gov/nistpubs/Legac
 cloud computing is, but also defines the so-called service models.   The convention is to take some aspect of IT, and add the suffix 
 "...as a service" which is abbreviated "aaS."   This is based on the 'stack model' of IT, where each layer of functionality depends on the layer below. 
 
-**Broad overview of service models**
+## Broad overview of service models
 
 * Infrastructure as a Service (IaaS):  What your IT department would provide, Nuts and bolts, DIY, Lego.  You need understanding of computing architecture as these services 
 * Platform as a Service (PaaS): Everything in between, or pre-configured and managed infrastructure
@@ -15,11 +15,29 @@ cloud computing is, but also defines the so-called service models.   The convent
 
 ![aaS](https://cloudtweaks.com/wp-content/uploads/2014/07/cloud-stack-images.png)
 
-![Oracle stack model diagram](https://i1.wp.com/oracle-help.com/wp-content/uploads/2017/08/Cloud-Service-Models.png?resize=611%2C326)
+<!-- ![Oracle stack model diagram](https://i1.wp.com/oracle-help.com/wp-content/uploads/2017/08/Cloud-Service-Models.png?resize=611%2C326) -->
 
 I believe a sweet-spot for researchers who do not have time to aquire the expertise to manage low-level infrastructure and need something more flexible and programmable than Software, are the platforms.  These are often more expensive than DIY infrastruture, but are faster to provision and provide security controls. 
 
-#### Cloud "Services" and the Packaging of Open Source Systems
+## Responsibility Model of Cloud Services
+
+| Layer                | Responsibility                  | On-Prem   | IAAS (VM) | PAAS          | SAAS    |
+| -------------------- | ------------------------------- | --------- | --------- | ------------- | ------- |
+| Network              | Connectivity & Security         | Campus IT | Service   | Service       | Service |
+| Hardware             | Maintainance, etc Disk Failures | You/IT    | Service   | Service       | Service |
+| Operating System     | Updates, installation, security | You       | You       | Service       | Service |
+| Security Software    | Install and maintain            | You       | You       | Service       | Service |
+| Server Software      | Install, maintain               | You       | You       | Service       | Service |
+| Server Configuration | Tune, Speed,                    | You       | You       | You (limited) | Service |
+| User Configuration   | Who can access, user accounts   | You       | You       | You           | Service |
+| **Code/Data**        | Doing the actual knowledge work | You       | You       | You           | You     |
+
+
+
+### Platform as a Service and the Packaging of Open Source Systems
+
+There are many cutting-edge, world-leading open source projects for servers: database servers, file servers, web servers.  The most widely used web servers in the world are open source and you can install and run them on your VMs for free and be web site. 
+
 
 Case Study on Open Source system as Cloud service: **MySQL **
 
@@ -35,3 +53,4 @@ Open source, free Relational database, e.g. SQL. Relational databases store tabu
   * Spin-offs: Amazon also offers [AWS Aurora](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html)  which is a cloud scale database service that is MySQL-compatible see [Amazon Aurora Paper](https://dl.acm.org/doi/10.1145/3035918.3056101) 
 
 What would a "SaaS" offering for your research look like?  A "Google Docs" for your databases?  How about a "PasS" that you could build?   Would it be reproducible by anyone doing the kind of research you do? 
+
