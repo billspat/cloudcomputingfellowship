@@ -76,7 +76,7 @@ Each approximately 2-week session consists of
       * Sessions [Big Data and the Cloud](sessions/05_big_data.md)
        
 6. Serverless Cloud Computing
-       * Meeting **November 17, 3pm**
+      * Meeting **November 17, 3pm**
       * Assignment: email 1-2 sentences describing a project you may undertake by December 6
 
 7. Azure AI Services
