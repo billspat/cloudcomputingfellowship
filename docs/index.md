@@ -72,9 +72,9 @@ Each approximately 2-week session consists of
 5. Databases, Data Analytics Systems, and Big Data on the Cloud  
       * Meeting **November 3, 3pm** 
       * [Review Project Requirements and Specification](projects.md)
-      * Exercise: Running Notebook servers in the cloud for analyzing data. 
+      * Exercise: Running Notebook servers in the cloud for analyzing data.  (currently still in development)
       * Sessions [Big Data and the Cloud](sessions/05_big_data.md)
-       
+      
 6. Serverless Cloud Computing
       * Meeting **November 17, 3pm**
       * Assignment: email 1-2 sentences describing a project you may undertake by December 6
