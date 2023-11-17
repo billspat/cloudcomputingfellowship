@@ -69,21 +69,24 @@ Each approximately 2-week session consists of
       * Meeting  **October 20, 3pm** 
       * Assignment/Exercise: [analyzing weather data in the cloud](./exercises/exercise_using_the_cloud_to_summarize_and_visualize_data.md)
 
-5. Databases, Data Analytics Systems, and Big Data on the Cloud  
+5. [Databases, Data Analytics Systems, and Big Data on the Cloud](sessions/05_big_data.md)
       * Meeting **November 3, 3pm** 
       * [Review Project Requirements and Specification](projects.md)
-      * Exercise: Running Notebook servers in the cloud for analyzing data.  (currently still in development)
-      * Sessions [Big Data and the Cloud](sessions/05_big_data.md)
-      
-6. Serverless Cloud Computing
+      * Exercise: Running Notebook servers in the cloud for analyzing data (see session notes above)
+
+6.  Data Servers  & Serverless Cloud Computing]
       * Meeting **November 17, 3pm**
-      * Assignment: email 1-2 sentences describing a project you may undertake by December 6
+         - Presentation: About the Fellowship Projects
+         - [6A. Data Servers in the cloud](sessions/06A_data_servers.md)
+         - [6B. Serverless Cloud Computing](sessions/06B_serverless.md) 
+
+      * Assignment: email 1-2 sentences describing a project you may undertake by **December 6**
 
 7. Azure AI Services
     * Meeting **December 1, 3pm**: 
-      - Discussion: Fellowship Projects
+      - Discussion Q/A About Fellowship projects. 
       - Demonstration of AI Services
-      - Exercise Hands-on reating responder using Python API
+      - Exercise Hands-on : creating a responder using Python API
       - Assignment: project proposal due January 8, 2024
    
 ## Winter/Spring 2023 Schedule
