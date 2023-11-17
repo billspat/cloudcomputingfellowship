@@ -17,8 +17,10 @@ of it of big data, or they have their own parallel systems.  for those that it c
 
 ## Videos
 
-1. [Using Azure Databricks](https://mediaspace.msu.edu/media/Using+Azure+Databricks+by+Doug+Krum+2021/1_etunq5g9) Doug Krum, Data Architect, Analytics and Data Solutions, MSU IT Services.    ( MSU log-in required for video)
-2. [Using Azure Databricks Part 2: Demonstration with Python](https://mediaspace.msu.edu/media/Using+Azure+Databricks+Part+2A+Demonstration/1_tsi9kyxp) Doug Krum, Data Architect, Analytics and Data Solutions, MSU IT Services.    ( MSU log-in required for video)
+**The following videos were created in 2021 and do not reflect the current interface.  The concepts are the same but many details have changed**
+
+1. [Using Azure Databricks 2021 version, Part 1: Introduction](https://mediaspace.msu.edu/media/Using+Azure+Databricks+by+Doug+Krum+2021/1_etunq5g9) Doug Krum, Data Architect, Analytics and Data Solutions, MSU IT Services.    ( MSU log-in required for video)
+2. [Using Azure Databricks 2021 version, Part 2: Demonstration with Python](https://mediaspace.msu.edu/media/Using+Azure+Databricks+Part+2A+Demonstration/1_tsi9kyxp) Doug Krum, Data Architect, Analytics and Data Solutions, MSU IT Services.    ( MSU log-in required for video)
 
 *These are detailed explanations of the commercial version of Apache Spark from the Databricks company, and exactly how to create and use a Databricks cluster on Azure to run Python code*
 
