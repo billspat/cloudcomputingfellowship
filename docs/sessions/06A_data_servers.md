@@ -14,7 +14,7 @@ I have use databases with many research projects that had significant data entry
 
 ## Readings
 
-- [Introduction to Data Servers on the Cloud](data_servers_intro_for_researchers.html) Slide Presentation 
+- [Introduction to Data Servers on the Cloud](../topics/intro_to_data_servers_for_researchers.html) Slide Presentation 
 
 - [Chapter 4. Databases](https://textbook.coleridgeinitiative.org/chap-db.html) From the free textbook "[Big Data and Social Science: Data Science Methods and Tools for Research and Practice](https://textbook.coleridgeinitiative.org/)" by Foster, Ghani, Jarmin, Kreuter and Lane.  The book itself could be a valuable resource for learning about the data science methods that you may se on the cloud.  
 

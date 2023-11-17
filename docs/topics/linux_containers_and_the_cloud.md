@@ -1,6 +1,6 @@
 # Linux Containers, Research, & the cloud
 
-#### For [Session 7: Serverless Cloud Computing](../sessions/07_serverless.md)
+#### For [Session 06B: Serverless Cloud Computing](../sessions/06B_serverless.md)
 
 ![containers go everywhere](../img/serverless/container_loading_on_truck.png.jpg)
 

@@ -32,7 +32,7 @@ As you read these materials, do you think  "serverless" resources are IaaS or Pa
 
 Containers are a widespread technology not just for Azure.   
 
-* [About Linux Containers](linux_containers_and_the_cloud.md) from Pat Bills, with readings and activities
+* [About Linux Containers](../topics/linux_containers_and_the_cloud.md) with readings and activities
 
 ### Functions
 
@@ -51,7 +51,7 @@ Containers are a widespread technology not just for Azure.
 
 ## Activities
 
-Links and activities related to containers are in the [Container Overview](linux_containers_and_the_cloud.md) page.  
+Links and activities related to containers are in the [Container Overview](../topics/linux_containers_and_the_cloud.md) page.  
 
 For Python programmers who have used the azure commaand line: [Quickstart: Create a Python function in Azure from the command line](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-python?tabs=azure-cli%2Cbash%2Cbrowser)
 
