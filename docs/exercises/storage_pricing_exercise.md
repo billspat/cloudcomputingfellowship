@@ -1,5 +1,5 @@
 ---
-title: 
+title: Storage Pricing
 ---
 <img src="../img/gaspump.gif"  style="display: block; float:right;margin:1em;" />
 
