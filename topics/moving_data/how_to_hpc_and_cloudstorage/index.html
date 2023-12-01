@@ -1682,7 +1682,7 @@ I think of this as  "pulling" data from HPC to the VM disk. </li>
 <p>We will cover what "Azure Data Factory" is in session 4, but this is included in this session for completeness. </p>
 <p>If you have some familiarity with Azure data factory, note that a "source" for Azure Data Factory" can be an 'sftp' or 'secure file transfer protocol' which most systems that have 'ssh' (secure shell) access allow, and is simlar to using the 'scp' or 'secure copy' utility. </p>
 <h3 id="method-4-python">Method 4. Python</h3>
-<p>We won't really cover using Python to copy files to/from blob storage, but see the optional exercise for using Azure cloud storage in Python in <a href="../session_cloud_storage/index.md">session #3</a>.  </p>
+<p>We won't really cover using Python to copy files to/from blob storage, but see the optional exercise for using Azure cloud storage in Python in <a href="../../../sessions/03_cloud_storage/">session #3</a>.  </p>
 <p>To use Azure python SDK on the HPC you need to installed the azure python sdk in a python environment in your home directory, for example using the Anaconda distribution of Python.  See <a href="https://wiki.hpcc.msu.edu/display/ITH/Using+conda">https://wiki.hpcc.msu.edu/display/ITH/Using+conda</a>.   </p>
 <h3 id="method-5-python-with-url">Method 5. Python with URL</h3>
 <p>Another approach that does not require the Azure SDK, is  URL access, the same as for <code>azcopy</code>  via the <code>requests</code> library.  For example, to download a CSV file from cloud storage, generate a SAS URL just for that file in the portal, and run this code</p>
