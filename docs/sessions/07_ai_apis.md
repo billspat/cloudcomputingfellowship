@@ -18,7 +18,7 @@ A discussion of AI and access to AI services in the cloud
 > Unsupervised learning does not require pre-labelling, using clustering or other techniques 
 > to identify the features for classification
 
-    - How is AI different (if at all) from Machine Learning? 
+ - How is AI different (if at all) from Machine Learning? 
 
 > AI is deep learning with larger data sets, faster and more reliably.  
    
